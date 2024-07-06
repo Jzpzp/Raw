@@ -27,7 +27,7 @@ local Window = Rayfield:CreateWindow({
 })
 
 local MainTab = Window:CreateTab("Jzp Main Nigga", nil) -- Title, Image
-local Section = MainTab:CreateSection("Main Gay")
+local MainSection = MainTab:CreateSection("Main Gay")
 
 Rayfield:Notify({
    Title = "You just executed my nigga script creds to jzp",
@@ -61,4 +61,3 @@ local Button = MainTab:CreateButton({
 loadstring(game:HttpGet("https://femboy.edu.pl/p/raw/0txodhcaxm"))()
    end,
 })
-
